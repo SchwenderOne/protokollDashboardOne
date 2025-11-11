@@ -1,0 +1,9 @@
+# Netlify Configuration
+[build]
+  # No build command needed - static HTML site
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
