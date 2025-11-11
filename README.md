@@ -23,7 +23,15 @@ Ein interaktives Dashboard zur Analyse von Unternehmenstransaktionen.
 ## Verwendung
 
 ### Dashboard öffnen
-Einfach die Datei `dashboard.html` im Browser öffnen - keine Installation erforderlich!
+
+**Option 1: Lokal**
+Einfach die Datei `dashboard.html` oder `index.html` im Browser öffnen - keine Installation erforderlich!
+
+**Option 2: Netlify Deployment**
+Das Dashboard ist für Netlify vorbereitet:
+1. Verbinden Sie Ihr GitHub Repository mit Netlify
+2. Netlify erkennt automatisch die `netlify.toml` Konfiguration
+3. Das Dashboard wird automatisch unter Ihrer Netlify-URL bereitgestellt
 
 ### Dashboard neu generieren
 Falls Sie die Daten aktualisieren möchten:
